@@ -55,15 +55,11 @@ npx expo start -c
         - No data is accessible until successful authentication.
 
     Personalized Recommendations:
-        - For each credit or debit card, the app shows individual recommendations explaining: Why that specific card is the best option for the payment of the other card, with a brief reason, such as lower interest rate, available balance, or upcoming due date.  
-        - Each recommendation includes a “Learn more” section where users can view deeper details if they wish.
+        - For each credit or debit card, the app shows recommendations explaining: Why that specific card is the best option for the payment of the other card, with a brief reason, such as lower interest rate, available balance, or upcoming due date.  
 
     Payment Actions:
         - Each recommendation has its own payment option, which users can decide per transaction, not all at once. This avoids confusion and prevents unwanted approvals.  
-        - Before confirming any payment between cards, users are also asked to verify again with their PIN or password.
-
-    Instruction Cleanup
-        - After a transaction is confirmed and completed, all temporary authorizations or payment instructions are automatically deleted, this prevents duplicated payments, pending requests, or accidental re-use of old authorizations.
+        - Before confirming any payment between cards, users are also asked to verify again with their PIN, token or password.
 
    Together, this guarantees that every action from the login to the payment, is intentional, verified, and secure.
    
